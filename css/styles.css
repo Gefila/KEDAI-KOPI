@@ -53,3 +53,16 @@ body{
 .navbar .navbar-nav a:hover{
     color: var(--primary);
 }
+
+.navbar .navbar-nav a::after{
+    content: "";
+    display: block;
+    padding-bottom: 0.3rem;
+    border-bottom: 0.1rem solid var(--primary);
+    transform: scaleX(0);
+    transition: 0.3s;
+}
+
+.navbar .navbar-nav a:hover::after{
+    transform: scaleX(1);
+}
