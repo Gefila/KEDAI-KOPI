@@ -64,5 +64,14 @@ body{
 }
 
 .navbar .navbar-nav a:hover::after{
-    transform: scaleX(1);
+    transform: scaleX(.7);
+}
+
+.navbar .navbar-extra a{
+    color: white;
+    margin: 0 0.5rem;
+}
+
+#hamburger-menu{
+    display: none;
 }
