@@ -16,7 +16,7 @@ body{
     font-family: 'Poppins', sans-serif;
     background-color: var(--bg);
     color: white;
-    height: 2000px;
+    height: 3000px;
 }
 
 .navbar{
@@ -139,7 +139,7 @@ body{
 .about h2, .menu h2{
     text-align: center;
     font-size: 2.5rem;
-    margin-bottom:2rem ;
+    margin-bottom:3rem ;
 }
 
 .about h2 span, .menu h2 span{
@@ -173,6 +173,17 @@ body{
     font-weight: 300;
     margin-bottom: 0.8rem;
 }
+
+
+/* MENU */
+.menu p {
+    text-align: center;
+    max-width: 30rem;
+    margin: auto;
+    line-height: 1.5rem;
+}
+
+
 
 /* Media queries */
 /* Laptop */
