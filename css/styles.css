@@ -183,6 +183,30 @@ body{
     line-height: 1.5rem;
 }
 
+.menu .row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 4rem;
+    justify-content: center;
+}
+
+.menu .row .menu-card{
+    text-align: center;
+}
+
+.menu .row img{
+    border-radius: 50%;
+    width: 80%;
+}
+
+.menu .row .menu-card-title{
+    margin: 1.5rem auto 0.4rem;
+}
+
+.menu .row .menu-card-price{
+
+}
+
 
 
 /* Media queries */
