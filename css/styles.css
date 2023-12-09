@@ -216,7 +216,6 @@ body {
 	display: flex;
 	margin-top:2rem ;
 	background-color: #141414;
-	flex-wrap: wrap;
 }
 
 .contact .row .map{
@@ -229,6 +228,32 @@ body {
 	flex: 1 1 45rem;
 	padding: 5rem 2rem;
 	text-align: center;
+}
+
+.contact .row form .input-group{
+	display: flex;
+	align-items: center;
+	margin-top: 2rem;
+	background-color: var(--bg);
+	padding-left: 2rem;
+	border: 1px solid white;
+}
+
+.contact .row form .input-group input{
+	width: 100%;
+	padding: 1.4rem;
+	background: none;
+	color: white;
+	font-size: 2rem;
+}
+
+.contact .row form .btn{
+	padding: 0.7rem 2.7rem;
+	margin-top: 2rem;
+	display: inline-block;
+	background-color: var(--primary);
+	color: white;
+	font-size: 2rem;
 }
 
 
@@ -305,6 +330,18 @@ body {
 
 	.menu p {
 		font-size: 1.5rem;
+	}
+
+	.contact .row{
+		flex-wrap: wrap;
+	}
+
+	.contact .row .map{
+		height: 35rem;
+	}
+
+	.contact .row form{
+		padding-top: 0;
 	}
 }
 /* Mobile Phone */
