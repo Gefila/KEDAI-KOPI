@@ -137,19 +137,20 @@ body {
 /* ABOUT */
 
 .about,
-.menu {
+.menu, .contact {
 	padding: 7rem 7% 1.4rem;
 }
 
 .about h2,
-.menu h2 {
+.menu h2 , .contact h2{
 	text-align: center;
 	font-size: 2.5rem;
-	margin-bottom: 3rem;
+	margin-bottom: 0.4rem;
 }
 
 .about h2 span,
-.menu h2 span {
+.menu h2 span,
+.contact h2 span {
 	color: var(--primary);
 }
 
@@ -182,7 +183,7 @@ body {
 }
 
 /* MENU */
-.menu p {
+.menu p, .contact p {
 	text-align: center;
 	max-width: 30rem;
 	margin: auto;
@@ -210,8 +211,7 @@ body {
 	margin: 1.5rem auto 0.4rem;
 }
 
-.menu .row .menu-card-price {
-}
+
 
 /* Media queries */
 /* Laptop */
