@@ -211,6 +211,19 @@ body {
 	margin: 1.5rem auto 0.4rem;
 }
 
+/* CONTACT */
+.contact .row {
+	display: flex;
+	margin-top:2rem ;
+	background-color: #141414;
+	flex-wrap: wrap;
+}
+
+.contact .row .map{
+	flex: 1 1 45rem;
+	width: 100%;
+	object-fit: cover;
+}
 
 
 /* Media queries */
