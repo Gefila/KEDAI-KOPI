@@ -11,3 +11,9 @@ document.addEventListener('click',(e)=>{
         navbarNav.classList.remove("active")
     }
 })
+
+const searchForm = document.querySelector(".navbar .seacrh-form");
+document.getElementById("search").addEventListener('click',()=>{
+    searchForm.classList.toggle('active')
+})
+
