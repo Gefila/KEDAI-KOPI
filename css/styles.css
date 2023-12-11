@@ -3,7 +3,7 @@
 	--bg: #010101;
 }
 
-html{
+html {
 	scroll-behavior: smooth;
 }
 * {
@@ -265,44 +265,42 @@ body {
 
 footer {
 	background-color: var(--primary);
-	text-align:  center;
+	text-align: center;
 	padding: 1rem 0;
 	margin-top: 3rem;
-
 }
 
-
-footer .socials{
+footer .socials {
 	padding: 1rem 0;
 }
 
-footer .socials a{
+footer .socials a {
 	color: white;
 	margin: 1rem;
 }
 
-footer .socials a:hover, footer .links a:hover{
+footer .socials a:hover,
+footer .links a:hover {
 	color: var(--bg);
 }
 
-footer .links a{
+footer .links a {
 	color: white;
-	padding: .7rem 1rem;
+	padding: 0.7rem 1rem;
 }
 
 footer .links {
 	margin-bottom: 0.3rem;
 }
 
-footer .credit{
+footer .credit {
 	font-size: 1.1rem;
 	padding: 1rem 0;
 }
 
-footer .credit a{
+footer .credit a {
 	color: var(--bg);
 }
-
 
 /* Media queries */
 /* Laptop */
