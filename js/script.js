@@ -15,5 +15,13 @@ document.addEventListener('click',(e)=>{
 const searchForm = document.querySelector(".navbar .seacrh-form");
 document.getElementById("search").addEventListener('click',()=>{
     searchForm.classList.toggle('active')
+    document.getElementById("search-box").focus();
 })
 
+const navbar= document.querySelector(".navbar");
+
+document.addEventListener('click',(e)=>{
+    if(!searchForm.contains(e.target) && !navbar.contains(e.target)){
+        searchForm.classList.remove('active');
+    }
+})
