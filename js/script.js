@@ -4,7 +4,7 @@ document.getElementById("hamburger-menu").addEventListener("click", ()=>{
 })
 
 
-// klik di luar sidebar untku menghilangkan nav
+// klik di luar element
 const hamburger= document.getElementById("hamburger-menu");
 document.addEventListener('click',(e)=>{
     if(!hamburger.contains(e.target) && !navbarNav.contains(e.target)){
@@ -19,10 +19,10 @@ document.getElementById("search").addEventListener('click',(e)=>{
     e.preventDefault();
 })
 
-const navbar= document.querySelector(".navbar");
+const sb= document.querySelector("#search");
 
 document.addEventListener('click',(e)=>{
-    if(!searchForm.contains(e.target) && !navbar.contains(e.target)){
+    if(!searchForm.contains(e.target) && !sb.contains(e.target)){
         searchForm.classList.remove('active');
     }
 })
