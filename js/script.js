@@ -13,9 +13,10 @@ document.addEventListener('click',(e)=>{
 })
 
 const searchForm = document.querySelector(".navbar .seacrh-form");
-document.getElementById("search").addEventListener('click',()=>{
+document.getElementById("search").addEventListener('click',(e)=>{
     searchForm.classList.toggle('active')
     document.getElementById("search-box").focus();
+    e.preventDefault();
 })
 
 const navbar= document.querySelector(".navbar");
